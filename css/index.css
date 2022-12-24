@@ -85,6 +85,11 @@ h3 {
     color: white;
 }
 
+h4 {
+    font-size: 3.5rem;
+    color: white;
+}
+
 p, a {
     font-size: 3rem;
     color: white;

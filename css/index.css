@@ -110,7 +110,7 @@ header {
 }
 
 .header {
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 14, 7, .8);
 }
 
 nav {
@@ -433,8 +433,9 @@ footer p {
     }
     .footerStyling div{
         width: 100%;
-       flex-direction: column;
-       align-items: center;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footerStyling div h3{
@@ -454,7 +455,7 @@ footer p {
 
     #SignUp {
         width: 100%;
-        /* padding: 1% 10%; */
+        padding: 1% 36.67%;
     }
 
     footer nav {

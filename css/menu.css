@@ -92,7 +92,7 @@ h4 {
 
 p, a {
     font-size: 2rem;
-    color: white;
+    color: rgb(225, 239, 230);
 }
 
 a:hover {
@@ -114,7 +114,7 @@ header h1 {
 }
 
 .header {
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 14, 7, .8);
 }
 
 nav {
@@ -309,7 +309,7 @@ footer p {
     /* menu */
     .menu {
         background-image: none;
-        background-color: rgb(225, 255, 235);
+        background-color: rgb(225, 239, 230);
     }
 
     .menuBackground {
@@ -354,7 +354,6 @@ footer p {
         font-size: 2rem;
     }
 
-
     .footerStyling {
         flex-direction: column;
         align-items: center;
@@ -382,7 +381,7 @@ footer p {
 
     #SignUp {
         width: 100%;
-        /* padding: 1% 10%; */
+        padding: 1% 36.67%;
     }
 
     footer nav {

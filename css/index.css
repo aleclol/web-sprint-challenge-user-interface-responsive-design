@@ -328,6 +328,8 @@ button{
 
 footer nav {
     width: 70%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer p {

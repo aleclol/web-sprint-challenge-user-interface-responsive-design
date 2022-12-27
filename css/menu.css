@@ -60,6 +60,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
@@ -67,23 +68,35 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
-    font-size: 7.5rem;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    padding: 0% 0;
+    margin: 0% 0;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 5rem;
+    color: white;
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 4rem;
+    color: white;
 }
 
 h4 {
-    font-size: 4rem;
+    font-size: 3rem;
+    color: white;
 }
 
 p, a {
-    font-size: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+a:hover {
+    color: gold;
 }
 
 /* header section */
@@ -96,6 +109,43 @@ header {
     background-repeat: no-repeat;
 }
 
+header h1 {
+    padding-top: 1.2%;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, .75);
+}
+
+nav {
+    margin: 0% 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav button {
+    background: none;
+    border: none;
+}
+
+nav a {
+    font-size: 2.5rem;
+}
+
+.socialMedia {
+    margin: 0 45%;
+}
+
+.socialMedia {
+    /* background-color: rgba(0, 0, 0, .1); */
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0;
+    margin: 1% 40%;
+}
 /* spacer */
 .spacer {
     width: 100%;
@@ -118,6 +168,37 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.menuBackground {
+    background-color: rgb(0, 4, 17, .8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article h2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.menu-section {
+    margin: 3%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2% 0;
+}
+
+.menu-item p {
+    width: 100%;
 }
 
 /* footer section */

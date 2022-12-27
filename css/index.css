@@ -342,13 +342,46 @@ footer p {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
+
+    h1 {
+        font-size: 6rem;
+        padding: 3% 1%;
+        margin: 0;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav button {
+        margin: 3% 0;
+    }
+
+    button a {
+        font-size: 3rem;
+        font-weight: 450;
+    }
 
     /* gallery section */
     .gallery {
         height: auto;
     }
     
+    .gallery div{
+        padding: 0;
+        margin: 0;
+    }
+
+    .gallery div div{
+        flex-direction: column;
+    }
+
+    .gallery img {
+        width: 100%;
+        padding: 0;
+        margin: 5% 0;
+    }
+
     /* about us section */
 
     .about {
@@ -394,4 +427,49 @@ footer p {
         font-size: 2rem;
     }
 
+    .footerStyling {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerStyling div{
+        width: 100%;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .footerStyling div h3{
+       margin: 2% 0;
+    }
+
+    footer input {
+        width: 90%;
+        margin: 0;
+    }
+
+    #emailButton {
+        width: 100%;
+        padding: 1% 0%;
+        margin: 0;
+    }
+
+    #SignUp {
+        width: 100%;
+        /* padding: 1% 10%; */
+    }
+
+    footer nav {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footerStyling nav button {
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    footer p {
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 3px;
+    }
 }

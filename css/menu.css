@@ -287,9 +287,64 @@ footer p {
         font-size: 4rem;
     }
 
+    h1 {
+        font-size: 6rem;
+        padding: 3% 1%;
+        margin: 0;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav button {
+        margin: 3% 0;
+    }
+
+    button a {
+        font-size: 3rem;
+        font-weight: 450;
+    }
+
     /* menu */
     .menu {
         background-image: none;
+        background-color: rgb(225, 255, 235);
+    }
+
+    .menuBackground {
+        background-color: inherit;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .menu h2,.menu h3,.menu h4,.menu p {
+        color: black;
+    }
+
+    .menu h2 {
+        width: 70%;
+        font-weight: 600;
+        border-bottom: 15px solid black;
+        margin: 10% 0 3% 0;
+    }
+
+    .menu-section {
+        margin: 5% 0;
+        width: 70%;
+    }
+
+    .menu h3{
+        border: 5px solid black;
+        text-align: center;
+        padding: 1% 5%;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 5px solid black;
     }
 
     /* footer section */
@@ -297,5 +352,52 @@ footer p {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+    }
+
+
+    .footerStyling {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerStyling div{
+        width: 100%;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .footerStyling div h3{
+       margin: 2% 0;
+    }
+
+    footer input {
+        width: 90%;
+        margin: 0;
+    }
+
+    #emailButton {
+        width: 100%;
+        padding: 1% 0%;
+        margin: 0;
+    }
+
+    #SignUp {
+        width: 100%;
+        /* padding: 1% 10%; */
+    }
+
+    footer nav {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footerStyling nav button {
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    footer p {
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 3px;
     }
 }
